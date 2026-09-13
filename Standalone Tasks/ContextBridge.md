@@ -59,7 +59,7 @@ The architecture is split into three distinct interactive environments:
 
 ### 4. Full-Stack Sync: API, Prisma, and Docker
 - To bridge extension development with standard MERN/Node architectures, the localized context must be persistable.
-- **CORS & API Communication:** The extension must securely `POST` the serialized graph payload to a custom Node.js/Express backend.
+- **API Security:** The backend must authenticate requests, authorize each saved context to its owner, validate and size-limit the DAG server-side, and configure CORS only for the extension origin when securely `POST`ing the serialized graph payload.
 - **Relational Schema:** The backend must utilize Prisma to define the database schema. Candidates must figure out how to efficiently store hierarchical data (e.g., using Adjacency Lists where each node stores a `parentId`).
 - **DevOps Deployment:** The submission must include a `Dockerfile` and `docker-compose.yml`. Running `docker-compose up` must seamlessly provision the Node server and the PostgreSQL database simultaneously.
 
