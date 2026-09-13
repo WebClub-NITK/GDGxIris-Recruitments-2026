@@ -1,0 +1,45 @@
+TaskID: BGMIClone
+
+Mentor: Ritvik Gampa (+91 8985003940)
+
+Technology 
+
+Unity/Godot 
+
+Difficulty: Hard
+
+Overview 
+
+Although Unreal Engine seems like an optimal choice to build this project I recommend you instead use 
+
+Required Features 
+
+1. Player 
+
+Deliverables
+
+	What we need in your repository:
+
+Source Code
+
+Complete project code using your respective game engine.
+Proper .gitignore respective to your engine, IDE, etc.
+Documentation
+
+Your README.md in the repository must include:
+
+Setup instructions
+How to run the project
+Screenshots
+Game Build
+
+A Windows or Linux build of the game. It can either be uploaded in the repository OR you can upload it to your Google Drive and share the linkin the README.md
+
+Demo video isn't necessary
+
+Resources
+
+
+
+
+
