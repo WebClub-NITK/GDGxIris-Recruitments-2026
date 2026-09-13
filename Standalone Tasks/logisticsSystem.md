@@ -61,12 +61,7 @@ Events may include changes to:
 * New Orders
 
 *Events should be handled based on their priority.*
-
 The agent should determine the impact of incoming events and take appropriate actions.
-
-The expected workflow is:
-
-**Observe → Reason → Delegate → Act → Monitor → Replan (if necessary)**
 
 ## Bonus Features
 
