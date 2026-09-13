@@ -22,7 +22,7 @@ The architecture is split into three distinct interactive environments:
 
 1. **The Live Observer (Content Script):**
    - Runs invisibly on the target chat interface.
-   - Constantly watches the DOM for new messages or branch forks.
+   - Constantly watches the DOM of a named supported chat interface (document its host and provide a representative fixture/DOM contract) for new messages or branch forks.
    - Emits real-time state updates to the extension's background worker without lagging the browser.
 
 2. **The Visual Control Panel (Extension Popup):**
