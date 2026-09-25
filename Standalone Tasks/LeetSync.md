@@ -2,7 +2,7 @@
 
 #### `Browser Extension`, `OAuth 2.0`, `DOM Manipulation`, `REST APIs`, `Pipelines`
 
-Mentors: Harshith Vellapa (+91 94800 90828)
+Mentors: Harshith Vellapa (+91 94800 90828), Chris Tony (+91 96566 20511) 
 
 Difficulty: `Medium-Hard`
 
