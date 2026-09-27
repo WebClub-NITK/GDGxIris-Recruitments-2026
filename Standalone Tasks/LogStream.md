@@ -2,7 +2,7 @@
 
 #### `Full Stack Web Development`, `Real-Time Protocols`, `Resource Management`
 
-Mentors: Shashank S (+91 9535203107)
+Mentors: Shashank S (+91 95352 03107)
 
 Difficulty: `Easy`
 
