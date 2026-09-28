@@ -23,7 +23,7 @@ The main challenge is to keep every reservation correct when many users act at t
 2. **Seat Reservation**
 
    - Create a temporary hold when a seat is available and show its expiry time.
-   - Allow only the owner of an active hold to confirm it.
+   - Require a server-validated user identity; allow only the owner of an active hold to confirm it and only the owner of an active hold or confirmed reservation to cancel it.
    - Release expired holds automatically and prevent them from being confirmed later.
    - Prevent a user from holding or confirming more than one seat.
 
