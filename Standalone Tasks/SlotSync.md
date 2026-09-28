@@ -10,7 +10,7 @@ Difficulty: `Medium / Hard`
 
 Booking a classroom, seminar hall, or lab at NITK still means paper registers, running around for signatures, and double-bookings nobody notices until the day. Build **SlotSync**, a Campus Infrastructure Booking Module where authorised users can see live availability, request a room in a few clicks, and get instant updates. Admins get role-based control to approve, reject, and track everything in one place.
 
-**Submission is different from the rest of this document.** Create a **private** GitHub repository named `IRIS_Web_Rec26_2_<Roll-No>` (e.g. `IRIS_Web_Rec26_2_251CS236`), add `aditip149209`, `nilansgit`, and `AbhimanyuKapoor` as collaborators, and submit the [IRIS form](https://iris.nitk.ac.in/form/webclub2026) before the deadline even if the submission is incomplete. Use **MVC architecture** and a **relational database** (e.g. MySQL, SQLite). Frontend frameworks (Bootstrap, Vue, React, etc.) are optional. Implementing every feature is recommended but not required — individual features carry their own points.
+**Submission is different from the rest of this document.** Create a **private** GitHub repository named `IRIS_Web_Rec26_2_<Roll-No>` (e.g. `IRIS_Web_Rec26_2_251CS236`), add `aditip149209`, `nilansgit`, and `AbhimanyuKapoor` as collaborators. Use **MVC architecture** and a **relational database** (e.g. MySQL, SQLite). Frontend frameworks (Bootstrap, Vue, React, etc.) are optional. Implementing every feature is recommended but not required — individual features carry their own points.
 
 **Roles**
 
