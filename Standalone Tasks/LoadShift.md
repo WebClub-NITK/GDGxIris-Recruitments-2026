@@ -20,7 +20,7 @@ Use the seed below as-is. Copy it into the repo (JSON is fine). Do not invent an
 
 **Assignment rules:** an order has **at most one** assignee. Do not bump work already assigned to make room. Only **open-pool** `normal` orders wait behind `urgent` ones. `urgent` beats `normal`. Among the same priority, the earlier deadline wins.
 
-Grade **invariants**, not the same driver–order pairing every run. A shorter feasible route is better than a longer one; there is no “globally optimal VRP” bar.
+Grade **invariants**, not the same driver-order pairing every run. A shorter feasible route is better than a longer one; there is no “globally optimal VRP” bar.
 
 ### Seed
 
@@ -53,7 +53,7 @@ Replay the same `id` is a **no-op** (idempotent). Apply events in increasing `t`
 
 | id | t | type | payload |
 | --- | --- | --- | --- |
-| `e0` | 0 | `assign_initial` | seed orders `O1`–`O6` |
+| `e0` | 0 | `assign_initial` | seed orders `O1`-`O6` |
 | `e1` | 5 | `driver_offline` | `driverId: D2` |
 | `e2` | 8 | `order_arrive` | `O7` as above |
 | `e3` | 12 | `edge_closed` | `edge: W-C` |
@@ -75,16 +75,16 @@ Replay the same `id` is a **no-op** (idempotent). Apply events in increasing `t`
 
 3. **Scripted events**
 
-   Replay `e1`–`e3` (after `e0`) against the seed. The dashboard and the decision log must show them.
+   Replay `e1`-`e3` (after `e0`) against the seed. The dashboard and the decision log must show them.
 
-   * **`e1` / `t=5` — `D2` goes offline:** undelivered orders on `D2` return to the open pool (zero assignees). The orchestrator must run assignment + routing again. **Invariant:** `D2` is `offline`, holds no orders, and receives none while offline.
-   * **`e2` / `t=8` — `O7` arrives:** assign open-pool `urgent` before open-pool `normal` if a feasible driver exists (`D1` or `D3` has spare capacity and some path from their current node meets the deadline). **Invariant:** `O7` is assigned to `D1` or `D3`, or `failed` with a reason. `D2` does not take it. No order has two assignees.
-   * **`e3` / `t=12` — edge `W-C` closes:** remove `W-C` from the graph. Re-route remaining work. If a driver is on `W-C`, snap them to the node they left; that leg does not complete. **Invariant:** no remaining route uses `W-C`. Orders that cannot meet their deadline on the new graph are `failed` and the slot is freed.
+   * **`e1` / `t=5` - `D2` goes offline:** undelivered orders on `D2` return to the open pool (zero assignees). The orchestrator must run assignment + routing again. **Invariant:** `D2` is `offline`, holds no orders, and receives none while offline.
+   * **`e2` / `t=8` - `O7` arrives:** assign open-pool `urgent` before open-pool `normal` if a feasible driver exists (`D1` or `D3` has spare capacity and some path from their current node meets the deadline). **Invariant:** `O7` is assigned to `D1` or `D3`, or `failed` with a reason. `D2` does not take it. No order has two assignees.
+   * **`e3` / `t=12` - edge `W-C` closes:** remove `W-C` from the graph. Re-route remaining work. If a driver is on `W-C`, snap them to the node they left; that leg does not complete. **Invariant:** no remaining route uses `W-C`. Orders that cannot meet their deadline on the new graph are `failed` and the slot is freed.
 
 4. **Decision log**
 
    * Persist a timeline: time, event `id`, tool calls (name, arguments, result), new assignments, failures.
-   * **Invariant:** a replay of this seed fires `e0`–`e3` in order. A second delivery of `e1` (or any id) does not assign twice or drop the order. The log has tool calls for each event.
+   * **Invariant:** a replay of this seed fires `e0`-`e3` in order. A second delivery of `e1` (or any id) does not assign twice or drop the order. The log has tool calls for each event.
 
 ### Bonus Features (Optional)
 

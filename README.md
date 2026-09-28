@@ -2,7 +2,7 @@
 
 ### Recruitment Tasks
 * **Visit** : [Tasks](./RECRUITMENT_TASKS_2026.md)
-* Submission Deadline: **[Deadline Placeholder], 2026, 11:59PM**
+* Submission Deadline: **5th October, 2026, 11:59PM**
 
 ### Instructions
 1. Candidates can choose to take up any number of tasks.
@@ -33,7 +33,7 @@
 
 ### Submission
 
-Fill this form on or before the deadline date.
+Fill this [form](https://iris.nitk.ac.in/form/webclub2026) on or before the deadline date.
 
 
 ### Contact

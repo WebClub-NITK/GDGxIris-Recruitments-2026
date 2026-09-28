@@ -2,9 +2,9 @@
 
 #### `Backend Engineering`, `Databases`, `Developer Tools`, `ORM`, `Agentic Workflows`
 
-**Mentors:** [Nishant A S](https://github.com/NishantAS) ([+91 6360 219 728](https://wa.me/916360219728)), [Kushagra Tiwari](https://github.com/Kushagra1122) ([+91 8318661731](https://wa.me/918318661731))
+Mentors: [Nishant A S](https://github.com/NishantAS) ([+91 6360219728](https://wa.me/916360219728)), [Kushagra Tiwari](https://github.com/Kushagra1122) ([+91 8318661731](https://wa.me/918318661731))
 
-**Difficulty:** `Hard`
+Difficulty: `Hard`
 
 ### Description
 
@@ -12,9 +12,9 @@ Build **SchemaShift**, a developer tool that helps teams migrate an application 
 
 Teams often start with a document store for speed of iteration, then need relational structure, stronger consistency, and better performance at larger scale. SchemaShift should make that transition practical: inspect the source data, generate the migration scripts, move the data, and update the application's ORM / data-access layer so the app can run against the new database.
 
-You may orchestrate the pipeline with **n8n** and/or **LangGraph**. **Every layer must be hybrid**: combine deterministic and non-deterministic parts, choose wisely which side owns what, and **justify the split** in the README. Prefer deterministic ownership wherever correctness, reproducibility, or production safety is required; use non-deterministic assist for suggestion, ranking, and explanation — never as the sole writer of production side effects.
+You may orchestrate the pipeline with **n8n** and/or **LangGraph**. **Every layer must be hybrid**: combine deterministic and non-deterministic parts, choose wisely which side owns what, and **justify the split** in the README. Prefer deterministic ownership wherever correctness, reproducibility, or production safety is required; use non-deterministic assist for suggestion, ranking, and explanation - never as the sole writer of production side effects.
 
-> **Note:** More deterministic is better. Within each hybrid layer, push as much as possible onto the deterministic side. Non-deterministic pieces should be the smallest useful assist — not the default path. Submissions that keep side effects, scripts, match-%, and verification reproducible will score higher than ones that lean on the LLM for core behavior.
+> **Note:** More deterministic is better. Within each hybrid layer, push as much as possible onto the deterministic side. Non-deterministic pieces should be the smallest useful assist - not the default path. Submissions that keep side effects, scripts, match-%, and verification reproducible will score higher than ones that lean on the LLM for core behavior.
 
 As a stretch goal, support the reverse direction (**SQL → NoSQL**) and a **zero-downtime** migration path.
 
@@ -34,10 +34,10 @@ SchemaShift must not be “all rules” or “all vibes.” For **each layer**, 
 
 **Non-deterministic path requirements** (whenever that side runs):
 
-1. **Report DB / schema similarity** — how similar source NoSQL is to proposed/target SQL (collections↔tables, fields↔columns, types, relations).
-2. **Publish match percentage** — overall `%` plus per-entity / per-field scores (matched vs guessed vs needs review).
-3. **Optimize with scoring and normalization** — normalize names/types/shapes first, then score (embedding similarity and/or fuzzy/token overlap). Do not trust raw LLM output alone for the `%`.
-4. **Gate low-confidence mappings** — below a documented threshold, require human approval before freezing the schema map.
+1. **Report DB / schema similarity** - how similar source NoSQL is to proposed/target SQL (collections↔tables, fields↔columns, types, relations).
+2. **Publish match percentage** - overall `%` plus per-entity / per-field scores (matched vs guessed vs needs review).
+3. **Optimize with scoring and normalization** - normalize names/types/shapes first, then score (embedding similarity and/or fuzzy/token overlap). Do not trust raw LLM output alone for the `%`.
+4. **Gate low-confidence mappings** - below a documented threshold, require human approval before freezing the schema map.
 
 **Justification requirement:** In the README, for **every layer**, document: hybrid split → what is deterministic → what is non-deterministic → why → safety gate → match-% (where applicable).
 
@@ -88,7 +88,7 @@ SchemaShift must not be “all rules” or “all vibes.” For **each layer**, 
   - Provide a runnable path (exported n8n workflow and/or LangGraph app) that reviewers can follow for the sample migration.
 7. **Minimal Sample / Seed (Do Not Overbuild)**
   - Provide a **thin** sample: seed NoSQL data (and optionally a tiny script or stub CRUD) is enough to prove the migration.
-  - Do **not** spend significant time on a polished demo UI or full product app — reviewers care about SchemaShift (inference, hybrid pipeline, scripts, match %, ORM update), not the demo.
+  - Do **not** spend significant time on a polished demo UI or full product app - reviewers care about SchemaShift (inference, hybrid pipeline, scripts, match %, ORM update), not the demo.
   - After migration, show the SQL side works with the generated ORM (even a short script or few endpoints is fine).
   - Seed data should be nested enough to exercise inference and relations, but keep the surface area small.
 
@@ -101,7 +101,7 @@ SchemaShift must not be “all rules” or “all vibes.” For **each layer**, 
   - Document the phases (e.g. schema create → backfill → dual write → verify → cutover → decommission).
   - Provide tooling or scripts that support at least one safe cutover path with rollback.
   - **Hybrid:** cutover/dual-write control stays **deterministic**; agents may advise on risk and phase readiness only.
-  - If you cannot fully implement the scripts/tooling, still add a dedicated **README** (e.g. `docs/zero-downtime.md`) that clearly explains the strategy, phases, failure modes, rollback plan, and what would be deterministic vs agent-assisted — reviewers will weigh a solid written design when code is incomplete.
+  - If you cannot fully implement the scripts/tooling, still add a dedicated **README** (e.g. `docs/zero-downtime.md`) that clearly explains the strategy, phases, failure modes, rollback plan, and what would be deterministic vs agent-assisted - reviewers will weigh a solid written design when code is incomplete.
 2. **Interactive Schema Review**
   - Let the user approve or tweak inferred mappings (rename tables/columns, choose embedding vs. relation) before scripts are generated.
   - A LangGraph interrupt / n8n wait node (or equivalent) for human approval is encouraged.
@@ -112,12 +112,12 @@ SchemaShift must not be “all rules” or “all vibes.” For **each layer**, 
 
 ### Tips
 
-- Design every layer as hybrid: deterministic for truth/side effects, non-deterministic for suggest/explain — justify both.
+- Design every layer as hybrid: deterministic for truth/side effects, non-deterministic for suggest/explain - justify both.
 - Keep the sample minimal; put effort into the migration pipeline, not a demo product.
 - Freeze the schema map early; regenerate DDL/ETL only from that artifact so runs stay reproducible.
-- Make generated SQL and ORM output human-readable — reviewers will read the scripts.
+- Make generated SQL and ORM output human-readable - reviewers will read the scripts.
 - Prefer explicit mapping rules over magic; document every nested-document decision.
-- If you use an LLM, treat it as a planner/suggester — never as the sole writer of production data.
+- If you use an LLM, treat it as a planner/suggester - never as the sole writer of production data.
 - Normalize before you score; score before you trust a match percentage.
 - Show reviewers both the similarity narrative (“these DBs are X% aligned”) and the mismatched fields that drag the score down.
 - For zero downtime, study expand/contract and dual-write patterns before coding.

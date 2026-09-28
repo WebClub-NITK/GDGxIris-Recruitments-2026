@@ -1,10 +1,10 @@
-# Task ID: SyncPlay
+## Task ID: SyncPlay
 
 #### `Flutter`, `Firebase`
 
-Mentors: [Pal Patel](https://github.com/palpatel224)([+91 9265254960](https://wa.me/9265254960))
+Mentors: [Patel Pal Bharat](https://github.com/palpatel224) ([+91 9265254960](https://wa.me/919265254960))
 
-## Difficulty: `Easy-Medium`
+Difficulty: `Easy-Medium`
 
 ## Overview
 
@@ -139,50 +139,7 @@ The task has two difficulty levels depending on the implementation:
 
 The synchronization functionality should allow changes such as **play, pause, seek, and song changes** to be reflected across users in the same room.
 
-## Deliverables
-
-### 1. Source Code
-
-- Complete Flutter project
-- Public GitHub repository
-- Proper `.gitignore`
-- Meaningful folder/project structure
-- Firebase configuration, if used
-
-### 2. README.md
-
-The README should contain:
-
-- Project overview
-- Setup instructions
-- Dependencies used
-- Firebase configuration/setup
-- How to run the project
-- Screenshots of the application
-- Any assumptions or limitations
-
-### 3. Demo Video
-
-A **2–3 minute screen recording** demonstrating:
-
-- Browsing songs
-- Searching for a song
-- Playing a song
-- Adding/removing favourites
-- Creating a room
-- Joining a room
-- Playing/pausing music inside a room
-- Demonstrating synchronization between two users/devices
-
-For demonstrating synchronization, you may record **two emulator/device instances** side by side.
-
-### 4. APK
-
-Submit a working Android APK.
-
----
-
-## Suggested Resources
+### Useful Resources
 
 - [Flutter Documentation](https://docs.flutter.dev/)
 - [Dart Documentation](https://dart.dev/)

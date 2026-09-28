@@ -2,7 +2,7 @@
 
 #### `Web3`, `Applied Cryptography`, `Full Stack Web Development`, `App Development (Optional)`, `Privacy`
 
-Mentors: [Sacheth Koushal](https://github.com/ksacheth) ([+91 9346324359](https://wa.me/919346324359))
+Mentors: [Punna Sacheth Koushal](https://github.com/ksacheth) ([+91 9346324359](https://wa.me/919346324359))
 
 Difficulty: `Medium-Hard`
 

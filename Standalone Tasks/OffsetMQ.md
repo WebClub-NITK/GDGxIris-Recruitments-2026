@@ -1,8 +1,8 @@
-# Task ID: OffsetMQ
+## Task ID: OffsetMQ
 
 #### `Backend Engineering`, `Distributed Systems`, `Message Brokers`, `Event Streaming`
 
-Mentor: Appaji Dheeraj
+Mentors: [Appaji Nagaraja Dheeraj](https://github.com/AppajiDheeraj) ([+91 9880952719](https://wa.me/919880952719))
 
 Difficulty: `Medium-Hard`
 
@@ -70,49 +70,17 @@ The test output must clearly report which guarantees passed or failed.
 
 Implementing any **two** makes the task `Hard`:
 
-1. **Consumer Groups** — Share partitions between consumers and rebalance when membership changes.
-2. **Retention Policies** — Delete messages based on age or stored size without corrupting offsets.
-3. **Log Compaction** — Retain only the latest value for each message key.
-4. **Idempotent Producers** — Prevent retries from appending the same logical message twice.
-5. **Dead-Letter Topics** — Store rejected messages with failure metadata.
-6. **Schema Validation** — Associate a versioned schema with a topic.
-7. **Multi-Broker Replication** — Replicate partitions and survive a broker failure.
+1. **Consumer Groups** - Share partitions between consumers and rebalance when membership changes.
+2. **Retention Policies** - Delete messages based on age or stored size without corrupting offsets.
+3. **Log Compaction** - Retain only the latest value for each message key.
+4. **Idempotent Producers** - Prevent retries from appending the same logical message twice.
+5. **Dead-Letter Topics** - Store rejected messages with failure metadata.
+6. **Schema Validation** - Associate a versioned schema with a topic.
+7. **Multi-Broker Replication** - Replicate partitions and survive a broker failure.
 
 Multi-broker consensus, exactly-once processing, and distributed transactions are not baseline requirements.
 
-## Deliverables
-
-1. **Source Code**
-   - Broker implementation and producer/consumer clients or CLI commands.
-   - Appropriate `.gitignore` and clear project structure.
-
-2. **Tests**
-   - Repeatable integration/stress-test program covering the required guarantees.
-
-3. **Documentation**
-   - Architecture and API/protocol.
-   - Topic, partition, offset, and storage model.
-   - Delivery guarantee, recovery behaviour, setup instructions, and known limitations.
-
-4. **Demo Video**
-   - Demonstrate publishing, consuming, offset commits, restart recovery, and replay.
-
-## Evaluation Criteria
-
-- Correct message ordering, offsets, partition routing, commits, and replay.
-- Safe concurrent producers without corrupted logs or offsets.
-- Reliable recovery after broker and consumer restarts.
-- Bounded memory usage and clear error handling.
-- Repeatable tests and clear documentation of trade-offs.
-
-## Learning Outcomes
-
-- Topics, partitions, offsets, and append-only logs.
-- Durable event streaming versus transient pub/sub.
-- At-least-once delivery, committed offsets, and replay.
-- Testing concurrent systems through controlled failures.
-
-## Resources
+### Useful Resources
 
 - [Apache Kafka Documentation](https://kafka.apache.org/documentation/)
 - [Kafka Design: The Log](https://kafka.apache.org/documentation/#design_log)

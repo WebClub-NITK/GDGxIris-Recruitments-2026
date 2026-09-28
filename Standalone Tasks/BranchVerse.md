@@ -1,8 +1,10 @@
-# Task ID: BranchVerse
+## Task ID: BranchVerse
 
-`Full Stack Web Development` `DevOps` `Docker` `GitHub API` `Webhooks`
+#### `Full Stack Web Development`, `DevOps`, `Docker`, `GitHub API`, `Webhooks`
 
-**Difficulty:** `Medium`
+Mentors: [Ajitesh Kumar Kallepalli](https://github.com/Aji-25) ([+91 9391219400](https://wa.me/919391219400))
+
+Difficulty: `Medium`
 
 ## Description
 
@@ -77,7 +79,9 @@ Both versions should be viewable side-by-side so reviewers can visually inspect 
 
 ## Extra Points
 
-The following features are optional and may be implemented for additional points:
+*Implementing any two of these features will make the task count as `Hard`*
+
+The following features are optional:
 
 - **Synchronized Comparison:** Sync scrolling, navigation, or viewport size between both previews.
 - **Visual Diff:** Use Playwright or Puppeteer to capture screenshots and highlight visual differences.
@@ -87,26 +91,6 @@ The following features are optional and may be implemented for additional points
 - **Rollback:** Redeploy an older successful commit.
 - **AI Build Explanation:** Use an LLM to analyze failed build logs and suggest possible fixes.
 - **Deployment Expiry:** Automatically expire preview environments after a configurable amount of time.
-
----
-
-## Deliverables
-
-Your repository should include:
-
-1. Complete frontend and backend source code
-2. Deployment and container configuration
-3. A `README.md` containing:
-   - Setup instructions
-   - Required environment variables
-   - GitHub Webhook configuration
-   - Instructions to run the project locally
-4. A working deployment or demo video demonstrating:
-   - PR creation
-   - Preview deployment
-   - Automatic redeployment after a new commit
-   - Main vs PR comparison
-   - Automatic cleanup after the PR is closed
 
 ---
 

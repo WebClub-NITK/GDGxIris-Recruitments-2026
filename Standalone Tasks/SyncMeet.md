@@ -2,11 +2,11 @@
 
 #### `Full Stack Web Development`, `WebRTC`, `Real-Time Communication`, `Authentication`
 
-Mentors: Aman Nagpal (+91 70820 73890)
+Mentors: [Aman Nagpal](https://github.com/StackedUpAman) ([+91 7082073890](https://wa.me/917082073890))
 
-**Difficulty:** `Medium`
+Difficulty: `Medium`
 
-**Description**
+### Description
 
 Build **SyncMeet**, a real-time **collaboration workspace** where authenticated users can create and join rooms to communicate and collaborate. The platform should combine **live video, audio, screen sharing, participant management, and real-time chat** into a single interactive workspace.
 

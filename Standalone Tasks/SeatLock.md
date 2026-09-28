@@ -2,9 +2,9 @@
 
 #### `Full Stack Web Development`, `Databases`, `Concurrency`, `Real-Time Systems`
 
-**Mentor:** [Sourabh Kapure](https://github.com/spkap/) ([+91 7021991449](https://wa.me/7021991449))
+Mentors: [Sourabh Kapure](https://github.com/Spkap) ([+91 7021991449](https://wa.me/917021991449))
 
-**Difficulty:** `Medium-Hard`
+Difficulty: `Medium-Hard`
 
 ### Description
 

@@ -1,10 +1,10 @@
-# Docker Visualiser
+## Task ID: DockerVisualiser
 
 #### `Full Stack Web Development`, `Docker`, `UI/UX`, `Three.js`
-**Mentor:**
-Varshini Adurti ([+91 9632079916](https://wa.me/7975657621))
 
-**Difficulty:** `Medium - Hard`
+Mentors: [Varshini Adurti](https://github.com/VarshiniAdurti28) ([+91 9632079916](https://wa.me/919632079916))
+
+Difficulty: `Medium-Hard`
 
 ### Description
 

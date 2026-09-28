@@ -1,12 +1,12 @@
-# Task ID: UniClip
+## Task ID: UniClip
 
-`Full Stack Web Development`,  `Real-Time Sync`
+#### `Full Stack Web Development`, `Real-Time Sync`
 
-**Mentor:** [Pari Tibrewal](https://github.com/pari1011) | [8240188219](https://wa.me/918240188219)
+Mentors: [Pari Tibrewal](https://github.com/pari1011) ([+91 8240188219](https://wa.me/918240188219))
 
-**Difficulty:** Medium
+Difficulty: `Medium`
 
-## Description
+### Description
 
 Build a web application that allows users to sync text and links across their devices in real time. Users can create a temporary session, pair devices, and share clipboard contents without creating an account.
 
@@ -46,41 +46,19 @@ Build a web application that allows users to sync text and links across their de
 - Reconnect automatically.
 - Avoid duplicate entries after reconnecting.
 
-## Bonus
+### Bonus Features (Optional)
 
-**Any 2 bonus features make the task Hard.**
+*Implementing any 2 bonus features will make the task count as `Hard`*
 
-1. **QR Pairing** — Join a session by scanning a QR code.
-2. **Image Sync** — Sync small images/screenshots.
-3. **End-to-End Encryption** — The server should not be able to read the actual clipboard content.
-4. **Burn After Sync** — Remove an item from shared history after it has been successfully synced to a device.
-5. **Automatic Clipboard Detection** — Detect clipboard changes automatically where browser permissions allow it, with a manual fallback.
+1. **QR Pairing** - Join a session by scanning a QR code.
+2. **Image Sync** - Sync small images/screenshots.
+3. **End-to-End Encryption** - The server should not be able to read the actual clipboard content.
+4. **Burn After Sync** - Remove an item from shared history after it has been successfully synced to a device.
+5. **Automatic Clipboard Detection** - Detect clipboard changes automatically where browser permissions allow it, with a manual fallback.
 
 > **Note:** Automatic clipboard monitoring is subject to browser security and permission restrictions.
 
-## Deliverables
-
-1. **Source Code**
-   - Frontend and backend source code.
-   - Public GitHub repository.
-   - Include an appropriate `.gitignore`.
-
-2. **README**
-   - Setup instructions.
-   - Dependencies.
-   - Environment variables/configuration.
-   - How to run the project.
-   - Screenshots.
-   - Brief explanation of the architecture.
-
-3. **Demo Video**
-   - Recommended length: 3–5 minutes.
-   - Ideally demonstrate syncing between two devices or browser windows.
-
-4. **Deployed Link**
-   - Provide a working deployed version of the application.
-
-## Resources
+### Useful Resources
 
 - [Clipboard API](https://developer.mozilla.org/en-US/docs/Web/API/Clipboard_API)
 - [WebSocket API](https://developer.mozilla.org/en-US/docs/Web/API/WebSocket)

@@ -1,10 +1,10 @@
-# Task ID: Context Bridge
+## Task ID: ContextBridge
 
 #### `Manifest V3 Extensions`, `Real-Time DOM`, `Graph Algorithms`, `Full-Stack DevOps`
 
-Mentors: Devansh Sharma
+Mentors: [Devansh Sharma](https://github.com/DevanshSharma351) ([+91 8218371950](https://wa.me/918218371950))
 
-Difficulty: `Medium-Hard / Hard`
+Difficulty: `Medium-Hard`
 
 ---
 
@@ -30,7 +30,7 @@ The architecture is split into three distinct interactive environments:
    - Features a strict Token Budget Slider (e.g., 2048 tokens).
    - Dynamically highlights which nodes are safely included in the export and which are pruned by the algorithm.
    - Includes a **History/Archive Tab** allowing users to fetch and view previously saved cloud contexts from the backend database.
-   - Features two primary action buttons: `[ 📋 Export Pruned Path to Clipboard ]` and `[ ☁️ Save Context to Cloud ]`.
+   - Features two primary action buttons: `[ Export Pruned Path to Clipboard ]` and `[ Save Context to Cloud ]`.
 
 3. **The Cloud Backend (Node/Express + PostgreSQL):**
    - A remote server that receives the serialized DAG payload.

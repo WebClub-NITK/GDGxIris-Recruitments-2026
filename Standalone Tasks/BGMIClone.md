@@ -1,10 +1,10 @@
 ## Task ID: BGMIClone
 
-`Mentor: Ritvik Gampa (+91 8985003940)`
+#### `Unity`, `Godot`
 
-#### `Unity/Godot`
+Mentors: [Ritvik Gampa](https://github.com/Ritvik-17) ([+91 8985003940](https://wa.me/918985003940))
 
-## Difficulty: `Hard`
+Difficulty: `Hard`
 
 ## Overview
 
@@ -64,22 +64,6 @@ Player animations, Weapon animations, Muzzle flash, Shooting SFX, Weapon firing 
 ### 9. Multiplayer **(Expert Task)**
 
 Note: This task becomes and expert task when you implement this. Have a server which stores the game state and in real time update the game state, any number of players can join a match at any point of time (to make this simpler you can do it this way). Also follow Client-Server Architecture i.e. The server should be the authoritative source of truth. Clients send inputs/actions such as movement or shooting, and the server updates the game state and synchronizes relevant state back to the clients.
-
-## Deliverables
-
-We will need the following to be present in your repository
-
-### 1. Source Code
-
-Complete project code using your respective game engine, a proper .gitignore respective to your engine, IDE, etc.
-
-### 2. Documentation
-
-Your [README.md](http://readme.md/) in the repository must include, Setup instructions, How to run the project, Game screenshots, Gameplay screen recording.
-
-### 3. Game Build
-
-A Windows or Linux build of the game. It can either be uploaded in the repository or you can upload it to your Google Drive and share the link in the `/builds` folder.
 
 ## Resources
 
