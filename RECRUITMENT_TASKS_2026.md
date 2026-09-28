@@ -27,5 +27,6 @@
 | [LeetSync](./Standalone%20Tasks/LeetSync.md) | Medium / Hard |
 | [ContextBridge](./Standalone%20Tasks/ContextBridge.md) | Medium / Hard |
 | [DockerVisualiser](./Standalone%20Tasks/DockerVisualiser.md) | Medium / Hard |
+| [SlotSync](./Standalone%20Tasks/SlotSync.md) | Medium / Hard |
 | [SchemaShift](./Standalone%20Tasks/SchemaShift.md) | Hard |
 | [BGMIClone](./Standalone%20Tasks/BGMIClone.md) | Hard |
