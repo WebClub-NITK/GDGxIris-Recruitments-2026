@@ -50,7 +50,7 @@ The architecture is split into three distinct interactive environments:
 - Exporting a massive chat history often breaks the context window limits of target LLMs. The extension must auto-optimize the payload.
 - **Weight Calculation:** Candidates must implement a fast word-count or pseudo-token estimator to assign a "weight" to every node in the graph.
 - **Optimization Logic:** Similar to a greedy algorithm or the Knapsack problem, the system must traverse the DAG and intelligently prune the graph to stay under the user's defined "Max Token Limit".
-- **Lineage Preservation:** The algorithm must prioritize keeping the root prompts, system instructions, and the most recent branch leaves, pruning non-essential intermediate assistant turns first.
+- **Lineage Preservation:** Every included branch leaf must retain all ancestors needed for a valid root-to-leaf path; if an intermediate turn is omitted, preserve an explicit placeholder or edge rather than disconnecting the leaf.
 
 ### 3. UI/UX: Interactive Canvas Graph Rendering
 - A standard HTML list cannot effectively display multidimensional branches.
