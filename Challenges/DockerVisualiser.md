@@ -215,6 +215,12 @@ docker exec <container> <command>
 
 The playground must be on a public URL. The GitHub repo stays private.
 
+# Tips
+
+- Simulate the commands in your own code. Do not pass the typed string to a shell or to a real Docker daemon.
+- Start with `docker pull`, `docker run`, `docker start`, `docker stop`, and `docker rm`, then add `docker build` and `docker exec`.
+- A complete submission includes containers, images and layers, and the container filesystem and processes.
+
 # Resources:
 * [Docker tutorial](https://www.docker.com/101-tutorial/)
 * [Docker CLI reference](https://docs.docker.com/reference/cli/docker/)
