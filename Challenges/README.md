@@ -2,6 +2,7 @@
 
 For 1st years.
 
+Read the instructions, evaluation criteria and submission details [here](../README.md).
 
 | Task | Domain | Difficulty |
 | --- | --- | --- |
@@ -13,4 +14,3 @@ For 1st years.
 | [SeatLock](./SeatLock.md) | Real-time systems and concurrency | Medium / Hard |
 | [DockerVisualiser](./DockerVisualiser.md) | DevOps | Medium / Hard |
 
-Read the instructions, evaluation criteria and submission details [here](../README.md).
