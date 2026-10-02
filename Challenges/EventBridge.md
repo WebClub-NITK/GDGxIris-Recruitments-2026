@@ -56,6 +56,13 @@ Build a lightweight webhook listener, event processing pipeline, and live monito
 
 ---
 
+### Tips
+
+- Store the event before you call the downstream step, so a failed call does not lose the payload.
+- A repeated delivery updates the same row. Use the sender's idempotency key, or a hash of the raw body.
+- Keep the header secret in an environment variable. Do not put it in the frontend or in git.
+- The public page shows id, time, status, and attempt count. Payload details and Retry stay behind the signed-in viewer.
+
 ### Useful Resources
 
 - [Webhooks Overview (MDN)](https://developer.mozilla.org/en-US/docs/Glossary/Webhook)

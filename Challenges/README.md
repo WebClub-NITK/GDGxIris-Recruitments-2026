@@ -1,6 +1,6 @@
 # Challenges
 
-For first years.
+For 1st years.
 
 
 | Task | Domain | Difficulty |
