@@ -1,6 +1,6 @@
 # Google Developer Groups NITK Recruitments 2026
 
-## First years
+## 1st years
 
 * Tasks: [Challenges](./challenges/README.md)
 * Submission deadline: **20th October, 2026, 11:59PM**
