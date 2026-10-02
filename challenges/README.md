@@ -1,4 +1,4 @@
-# Web Club Challenges
+# Challenges
 
 For first years.
 

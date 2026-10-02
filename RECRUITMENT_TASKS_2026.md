@@ -9,7 +9,7 @@
 
 ## 2nd and 3rd years
 
-First years use [Web Club Challenges](./Web%20Club%20Challenges/README.md).
+First years use [Challenges](./challenges/README.md).
 
 ### Table of Tasks
 

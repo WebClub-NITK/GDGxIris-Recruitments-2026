@@ -1,7 +1,7 @@
 # Google Developer Groups NITK Recruitments 2026
 
 ### Recruitment Tasks
-* **First years** : [Web Club Challenges](./Web%20Club%20Challenges/README.md)
+* **First years** : [Challenges](./challenges/README.md)
 * **2nd and 3rd years** : [Tasks](./RECRUITMENT_TASKS_2026.md)
 * Submission Deadline: **5th October, 2026, 11:59PM**
 
