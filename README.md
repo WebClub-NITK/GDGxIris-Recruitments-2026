@@ -32,7 +32,8 @@
 
 ### Submission
 
-Fill this [form](https://iris.nitk.ac.in/form/webclub2026) on or before the deadline date.
+* **2nd and 3rd years:** Fill this [form](https://iris.nitk.ac.in/form/webclub2026) on or before the deadline date.
+* **First years:** Form link coming soon.
 
 
 ### Contact
