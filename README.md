@@ -33,7 +33,7 @@
 
 ### Submission
 
-Fill this [form](https://iris.nitk.ac.in/form/webclub2026) on or before the deadline date.
+Fill this [form](https://iris.nitk.ac.in/form/wecxiris2026) on or before the deadline date.
 
 
 ### Contact
