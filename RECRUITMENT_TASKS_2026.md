@@ -7,6 +7,10 @@
 - Mention the Task ID attempted in the README of your private GitHub repository.
 - Read the instructions, evaluation criteria and submission details [here](./README.md)
 
+## 2nd and 3rd years
+
+First years use [Challenges](./challenges/README.md).
+
 ### Table of Tasks
 
 ## Standalone Tasks
