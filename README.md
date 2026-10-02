@@ -1,9 +1,16 @@
 # Google Developer Groups NITK Recruitments 2026
 
-### Recruitment Tasks
-* **First years** : [Challenges](./challenges/README.md)
-* **2nd and 3rd years** : [Tasks](./RECRUITMENT_TASKS_2026.md)
-* Submission Deadline: **5th October, 2026, 11:59PM**
+## First years
+
+* Tasks: [Challenges](./challenges/README.md)
+* Submission deadline: **20th October, 2026, 11:59PM**
+* Fill this [form](https://forms.gle/rzd6zap9YTTd7tx46) on or before the deadline.
+
+## 2nd and 3rd years
+
+* Tasks: [Tasks](./RECRUITMENT_TASKS_2026.md)
+* Submission deadline: **5th October, 2026, 11:59PM**
+* Fill this [form](https://iris.nitk.ac.in/form/webclub2026) on or before the deadline.
 
 ### Instructions
 1. Candidates can choose to take up any number of tasks.
@@ -15,7 +22,7 @@
 3. Start working on the task
 	* Feel free to contact the mentor(s) and discuss anything related to the task.
 	* Follow the practices mentioned in the Evaluation Criteria below.
-4. For the final submission, check the Submission section below.
+4. For the final submission, fill the form in your year section above.
 5. Deployment for each task is preferred ( Netlify, Vercel, etc ). If a task file requires a public URL or a playable build, follow that.
 
 ### Evaluation Criteria
@@ -29,12 +36,6 @@
 * Innovation shown in the task
 * **IMPORTANT:** Please add a video recording demonstrating your submission. 
 * Share your link if it's deployed, or share the APK.
-
-### Submission
-
-* **2nd and 3rd years:** Fill this [form](https://iris.nitk.ac.in/form/webclub2026) on or before the deadline date.
-* **First years:** Fill this [form](https://forms.gle/rzd6zap9YTTd7tx46) on or before the deadline date.
-
 
 ### Contact
 
