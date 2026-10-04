@@ -18,7 +18,7 @@
 
 * Tasks: [Tasks](./RECRUITMENT_TASKS_2026.md)
 * Submission deadline: **5th October, 2026, 11:59PM**
-* Fill this [form](https://iris.nitk.ac.in/form/webclub2026) on or before the deadline.
+* Fill this [form](https://iris.nitk.ac.in/form/wecxiris2026) on or before the deadline.
 
 ## Instructions
 1. Candidates can choose to take up any number of tasks.
